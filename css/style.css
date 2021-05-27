@@ -1,0 +1,75 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/card.css');
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  color: darkred;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.text-center {
+  color: red;
+  text-align: center;
+}
+.list-inline {
+  margin: 0;
+  padding-left: 0px;
+  list-style: none;
+  font-size: 50px;
+}
+
+.list-inline ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-inline ul li {
+  list-style: none;
+}
+
+.list-inline a:hover {
+  background-color: none;
+  opacity: 0.6;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2C2B2B;
+}
